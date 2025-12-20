@@ -2,7 +2,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackContext
 
 # Replace with your BotFather token
-TOKEN = "7990731632:AAFGgi61mU4VGYVP0HSTkIFiUQkh1ab0mSE"
+TOKEN = ""
 
 # Start command
 async def start(update: Update, context: CallbackContext) -> None:
